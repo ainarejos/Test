@@ -3,12 +3,14 @@ public class Test {
     public static void main(String[] args) {
         int a, b;
         double c;
-        int[] array1={1,5,2,5};
+        double[] array1=new double[10];
         Scanner teclado=new Scanner(System.in);
         System.out.print("Introduce el valor de a: ");
         a=teclado.nextInt();
         System.out.print("Introduce el valor de b: ");
         b=teclado.nextInt();
+        System.out.print("Introduce el valor de 0 de array1: ");
+        array1[0]=teclado.nextDouble();
         int sum=a+b;
         c=(double)a;
         System.out.println("La suma de a + b es: " + sum);
