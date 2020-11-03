@@ -21,5 +21,6 @@ public class Test {
         System.out.println("La suma de a + b es: " + sum);
         System.out.println("El primer valor de la array1 es:" + array1[0]);
         System.out.println("EL valor de c es: " + c);
+        System.out.println("Esto es una prueba para las ramas");
     }
 }
